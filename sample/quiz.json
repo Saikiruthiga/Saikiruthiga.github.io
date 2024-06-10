@@ -1,0 +1,13 @@
+[
+    {
+      "question": "What is the capital of Denmark?",
+      "options": [{"text":"Berlin","isCorrect":false},{"text":"Arhus","isCorrect":false},{"text":"Copenhagen","isCorrect":true},{"text":"Fredriksberg","isCorrect":false}],
+      "explanation": "Copenhagen is the capital of Denmark"
+    },
+    {
+      "question": "What is the capital of India?",
+      "options": [{"text":"Delhi","isCorrect":true},{"text":"Arhus","isCorrect":false},{"text":"Copenhagen","isCorrect":true},{"text":"Fredriksberg","isCorrect":false}],
+      "explanation": " Delhi is the capital of India"
+    }
+ 
+  ]
