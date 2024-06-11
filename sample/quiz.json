@@ -1,13 +1,32 @@
 [
     {
-      "question": "What is the capital of Denmark?",
-      "options": [{"text":"Berlin","isCorrect":false},{"text":"Arhus","isCorrect":false},{"text":"Copenhagen","isCorrect":true},{"text":"Fredriksberg","isCorrect":false}],
-      "explanation": "Copenhagen is the capital of Denmark"
-    },
-    {
-      "question": "What is the capital of India?",
-      "options": [{"text":"Delhi","isCorrect":true},{"text":"Arhus","isCorrect":false},{"text":"Copenhagen","isCorrect":true},{"text":"Fredriksberg","isCorrect":false}],
-      "explanation": " Delhi is the capital of India"
-    }
- 
-  ]
+    "question": "Which of the following is a correct way to create a new array in JavaScript?",
+    "options": [
+      { "text": "var arr = new Array();", "isCorrect": true },
+      { "text": "var arr = Array();", "isCorrect": true },
+      { "text": "var arr = [];", "isCorrect": true },
+      { "text": "All of the above", "isCorrect": true }
+    ],
+    "explanation": "All provided options are correct ways to create a new array in JavaScript."
+  },
+  {
+    "question": "How do you find the number with the highest value of x and y?",
+    "options": [
+      { "text": "ceil(x, y)", "isCorrect": false },
+      { "text": "Math.ceil(x, y)", "isCorrect": false },
+      { "text": "Math.max(x, y)", "isCorrect": true },
+      { "text": "top(x, y)", "isCorrect": false }
+    ],
+    "explanation": "The Math.max(x, y) function returns the number with the highest value of x and y."
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": [
+      { "text": "onchange", "isCorrect": false },
+      { "text": "onmouseclick", "isCorrect": false },
+      { "text": "onclick", "isCorrect": true },
+      { "text": "onmouseover", "isCorrect": false }
+    ],
+    "explanation": "The onclick event occurs when the user clicks on an HTML element."
+  }
+]
