@@ -28,5 +28,64 @@
       { "text": "onmouseover", "isCorrect": false }
     ],
     "explanation": "The onclick event occurs when the user clicks on an HTML element."
+  },
+  {
+    "question": "What will this output? console.log(typeof NaN);",
+    "options": [
+      { "text": "'number'", "isCorrect": true },
+      { "text": "'NaN'", "isCorrect": false },
+      { "text": "'undefined'", "isCorrect": false },
+      { "text": "'object'", "isCorrect": false }
+    ],
+    "explanation": "The typeof NaN is 'number' because NaN is considered a numeric value in JavaScript."
+  },{
+    "question": "What will this log? console.log([] + []);",
+    "options": [
+      { "text": "''", "isCorrect": true },
+      { "text": "'[]'", "isCorrect": false },
+      { "text": "'undefined'", "isCorrect": false },
+      { "text": "'null'", "isCorrect": false }
+    ],
+    "explanation": "Adding two empty arrays results in an empty string due to type coercion."
+  },
+  {
+    "question": "What does 'bind()' do?",
+    "options": [
+      { "text": "Sets 'this' context", "isCorrect": true },
+      { "text": "Calls a function", "isCorrect": false },
+      { "text": "Returns a new array", "isCorrect": false },
+      { "text": "None of the above", "isCorrect": false }
+    ],
+    "explanation": "The bind() method creates a new function that, when called, has its 'this' keyword set to the provided value."
+  },
+  {
+    "question": "What does 'let' allow?",
+    "options": [
+      { "text": "Block scoping", "isCorrect": true },
+      { "text": "Function scoping", "isCorrect": false },
+      { "text": "Global scoping", "isCorrect": false },
+      { "text": "None of the above", "isCorrect": false }
+    ],
+    "explanation": "The 'let' keyword allows variables to be scoped to the block, statement, or expression in which they are used."
+  },
+  {
+    "question": "What is a Promise?",
+    "options": [
+      { "text": "Represents future value", "isCorrect": true },
+      { "text": "Blocks execution", "isCorrect": false },
+      { "text": "Immediately executed", "isCorrect": false },
+      { "text": "None of the above", "isCorrect": false }
+    ],
+    "explanation": "A Promise represents a value that may be available now, or in the future, or never."
+  },
+  {
+    "question": "What will this log? console.log('5' - 3);",
+    "options": [
+      { "text": "2", "isCorrect": true },
+      { "text": "'53'", "isCorrect": false },
+      { "text": "'2'", "isCorrect": false },
+      { "text": "NaN", "isCorrect": false }
+    ],
+    "explanation": "The subtraction operator converts '5' to a number, so the result is 2."
   }
 ]
