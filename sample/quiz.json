@@ -2,9 +2,9 @@
     {
     "question": "Which of the following is a correct way to create a new array in JavaScript?",
     "options": [
-      { "text": "var arr = new Array();", "isCorrect": true },
-      { "text": "var arr = Array();", "isCorrect": true },
-      { "text": "var arr = [];", "isCorrect": true },
+      { "text": "const arr = new Array();", "isCorrect": true },
+      { "text": "const arr = Array();", "isCorrect": true },
+      { "text": "const arr = [];", "isCorrect": true },
       { "text": "All of the above", "isCorrect": true }
     ],
     "explanation": "All provided options are correct ways to create a new array in JavaScript."
