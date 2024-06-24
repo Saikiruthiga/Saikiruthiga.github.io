@@ -2,9 +2,9 @@
     {
     "question": "Which of the following is a correct way to create a new array in JavaScript?",
     "options": [
-      { "text": "const arr = new Array();", "isCorrect": true },
-      { "text": "const arr = Array();", "isCorrect": true },
-      { "text": "const arr = [];", "isCorrect": true },
+      { "text": "const arr = new Array();", "isCorrect": false },
+      { "text": "const arr = Array();", "isCorrect": false },
+      { "text": "const arr = [];", "isCorrect": false },
       { "text": "All of the above", "isCorrect": true }
     ],
     "explanation": "All provided options are correct ways to create a new array in JavaScript."
@@ -87,5 +87,331 @@
       { "text": "NaN", "isCorrect": false }
     ],
     "explanation": "The subtraction operator converts '5' to a number, so the result is 2."
+  },{
+    "question": "What is 'use strict'?",
+    "options": [
+      {"text":"Enforces strict mode","isCorrect": true},
+      {"text":"Disables strict mode","isCorrect": false },
+      {"text":"Adds use of semicolons","isCorrect": false },
+      {"text":"Changes variable scope","isCorrect": false }
+    ],
+    
+    "explanation": "It enables strict mode in JS."
+  },
+  {
+    "question": "What does isNaN() do?",
+    "options": [
+      {"text": "Checks for NaN","isCorrect": true},
+      {"text":"Checks for null","isCorrect": false },
+      {"text":"Checks for undefined","isCorrect": false },
+      {"text":"Checks for infinity","isCorrect": false }
+    ],
+   
+    "explanation": "It returns true if the value is NaN."
+  },{
+    "question": "What does '===' mean?",
+    "options": [
+      {"text": "Strict equality", "isCorrect": true},
+      {"text": "Loose equality", "isCorrect": false},
+      {"text": "Assignment", "isCorrect": false},
+      {"text": "Addition", "isCorrect": false}
+    ],
+    "explanation": "Checks type and value."
+  },{
+    "question": "What is 'null'?",
+    "options": [
+      {"text": "No value", "isCorrect": true},
+      {"text": "Undefined", "isCorrect": false},
+      {"text": "Zero", "isCorrect": false},
+      {"text": "Empty string", "isCorrect": false}
+    ],
+    "explanation": "Represents no value."
+  },
+  {
+    "question": "What is a closure?",
+    "options": [
+      {"text": "Function with scope", "isCorrect": true},
+      {"text": "Object method", "isCorrect": false},
+      {"text": "Loop", "isCorrect": false},
+      {"text": "Class", "isCorrect": false}
+    ],
+    "explanation": "A function with access to its scope."
+  },
+  {
+    "question": "What is 'typeof'?",
+    "options": [
+      {"text": "Type operator", "isCorrect": true},
+      {"text": "Equality operator", "isCorrect": false},
+      {"text": "Assignment operator", "isCorrect": false},
+      {"text": "Arithmetic operator", "isCorrect": false}
+    ],
+    "explanation": "Returns variable type."
+  },{
+    "question": "What is 'undefined'?",
+    "options": [
+      {"text": "Variable with no value", "isCorrect": true},
+      {"text": "Null value", "isCorrect": false},
+      {"text": "Zero value", "isCorrect": false},
+      {"text": "Empty string", "isCorrect": false}
+    ],
+    "explanation": "Variable with no value."
+  },
+  {
+    "question": "What does 'push' do?",
+    "options": [
+      {"text": "Adds element to end", "isCorrect": true},
+      {"text": "Removes element from end", "isCorrect": false},
+      {"text": "Adds element to start", "isCorrect": false},
+      {"text": "Removes element from start", "isCorrect": false}
+    ],
+    "explanation": "Adds element to end."
+  },{
+    "question": "What does 'pop' do?",
+    "options": [
+      {"text": "Removes element from end", "isCorrect": true},
+      {"text": "Adds element to end", "isCorrect": false},
+      {"text": "Removes element from start", "isCorrect": false},
+      {"text": "Adds element to start", "isCorrect": false}
+    ],
+    "explanation": "Removes element from end."
+  },
+  {
+    "question": "What is 'const' used for?",
+    "options": [
+      {"text": "Declare constant", "isCorrect": true},
+      {"text": "Declare variable", "isCorrect": false},
+      {"text": "Declare function", "isCorrect": false},
+      {"text": "Declare class", "isCorrect": false}
+    ],
+    "explanation": "Declare constant."
+  },
+  {
+    "question": "What is 'typeof null'?",
+    "options": [
+      {"text": "Object", "isCorrect": true},
+      {"text": "Null", "isCorrect": false},
+      {"text": "Undefined", "isCorrect": false},
+      {"text": "String", "isCorrect": false}
+    ],
+    "explanation": "It's an object."
+  },
+  {
+    "question": "What does 'slice' do?",
+    "options": [
+      {"text": "Extracts array part", "isCorrect": true},
+      {"text": "Modifies array", "isCorrect": false},
+      {"text": "Removes array part", "isCorrect": false},
+      {"text": "Adds to array", "isCorrect": false}
+    ],
+    "explanation": "Extracts part of array."
+  },
+  {
+    "question": "What does 'filter' do?",
+    "options": [
+      {"text": "Creates new array", "isCorrect": true},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Reverses array", "isCorrect": false},
+      {"text": "Concats arrays", "isCorrect": false}
+    ],
+    "explanation": "Creates new array."
+  },
+  {
+    "question": "What is 'this'?",
+    "options": [
+      {"text": "Current context", "isCorrect": true},
+      {"text": "Global object", "isCorrect": false},
+      {"text": "New object", "isCorrect": false},
+      {"text": "Undefined", "isCorrect": false}
+    ],
+    "explanation": "Refers to current context."
+  },
+  {
+    "question": "What does 'map' do?",
+    "options": [
+      {"text": "Creates new array", "isCorrect": true},
+      {"text": "Filters array", "isCorrect": false},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Reverses array", "isCorrect": false}
+    ],
+    "explanation": "Creates new array."
+  },{
+    "question": "What does 'forEach' do?",
+    "options": [
+      {"text": "Executes function for each element", "isCorrect": true},
+      {"text": "Filters array", "isCorrect": false},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Creates new array", "isCorrect": false}
+    ],
+    "explanation": "Executes a provided function once for each array element."
+  },
+  {
+    "question": "What does 'reduce' do?",
+    "options": [
+      {"text": "Reduces array to single value", "isCorrect": true},
+      {"text": "Filters array", "isCorrect": false},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Maps array", "isCorrect": false}
+    ],
+    "explanation": "Applies a function to accumulate a single result."
+  },
+  {
+    "question": "What does 'find' do?",
+    "options": [
+      {"text": "Returns first matching element", "isCorrect": true},
+      {"text": "Filters array", "isCorrect": false},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Maps array", "isCorrect": false}
+    ],
+    "explanation": "Returns the first element that satisfies the condition."
+  },
+  {
+    "question": "What does 'some' do?",
+    "options": [
+      {"text": "Checks if any element passes test", "isCorrect": true},
+      {"text": "Filters array", "isCorrect": false},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Maps array", "isCorrect": false}
+    ],
+    "explanation": "Checks if any element in the array passes the test."
+  },
+  {
+    "question": "What does 'every' do?",
+    "options": [
+      {"text": "Checks if all elements pass test", "isCorrect": true},
+      {"text": "Filters array", "isCorrect": false},
+      {"text": "Sorts array", "isCorrect": false},
+      {"text": "Maps array", "isCorrect": false}
+    ],
+    "explanation": "Checks if all elements in the array pass the test."
+  },
+  {
+    "question": "What does 'Object.keys()' do?",
+    "options": [
+      {"text": "Returns array of object keys", "isCorrect": true},
+      {"text": "Returns array of object values", "isCorrect": false},
+      {"text": "Returns object length", "isCorrect": false},
+      {"text": "Returns object type", "isCorrect": false}
+    ],
+    "explanation": "Returns an array of a given object's own enumerable property names."
+  },
+  {
+    "question": "What does 'Object.values()' do?",
+    "options": [
+      {"text": "Returns array of object values", "isCorrect": true},
+      {"text": "Returns array of object keys", "isCorrect": false},
+      {"text": "Returns object length", "isCorrect": false},
+      {"text": "Returns object type", "isCorrect": false}
+    ],
+    "explanation": "Returns an array of a given object's own enumerable property values."
+  },
+  {
+    "question": "What does 'Object.entries()' do?",
+    "options": [
+      {"text": "Returns array of key-value pairs", "isCorrect": true},
+      {"text": "Returns array of object keys", "isCorrect": false},
+      {"text": "Returns array of object values", "isCorrect": false},
+      {"text": "Returns object length", "isCorrect": false}
+    ],
+    "explanation": "Returns an array of a given object's own enumerable property [key, value] pairs."
+  },
+  {
+    "question": "What does 'parseInt()' do?",
+    "options": [
+      {"text": "Parses string to integer", "isCorrect": true},
+      {"text": "Parses integer to string", "isCorrect": false},
+      {"text": "Converts number to string", "isCorrect": false},
+      {"text": "Converts string to number", "isCorrect": false}
+    ],
+    "explanation": "Parses a string and returns an integer."
+  },
+  {
+    "question": "What does 'parseFloat()' do?",
+    "options": [
+      {"text": "Parses string to floating-point number", "isCorrect": true},
+      {"text": "Parses floating-point number to string", "isCorrect": false},
+      {"text": "Converts number to string", "isCorrect": false},
+      {"text": "Converts string to number", "isCorrect": false}
+    ],
+    "explanation": "Parses a string and returns a floating-point number."
+  },
+  {
+    "question": "What does 'setTimeout()' do?",
+    "options": [
+      {"text": "Executes function after delay", "isCorrect": true},
+      {"text": "Executes function immediately", "isCorrect": false},
+      {"text": "Clears timeout", "isCorrect": false},
+      {"text": "Sets interval to execute function", "isCorrect": false}
+    ],
+    "explanation": "Sets a timer which executes a function or specified piece of code once after the timer expires."
+  },
+  {
+    "question": "What does 'setInterval()' do?",
+    "options": [
+      {"text": "Repeats function at intervals", "isCorrect": true},
+      {"text": "Executes function immediately", "isCorrect": false},
+      {"text": "Clears interval", "isCorrect": false},
+      {"text": "Sets timeout to execute function", "isCorrect": false}
+    ],
+    "explanation": "Repeats a function or specified piece of code at specified intervals."
+  },
+  {
+    "question": "What is an 'arrow function'?",
+    "options": [
+      {"text": "Shorter syntax for function expression", "isCorrect": true},
+      {"text": "Anonymous function", "isCorrect": false},
+      {"text": "Immediately invoked function expression", "isCorrect": false},
+      {"text": "Generator function", "isCorrect": false}
+    ],
+    "explanation": "Shorter syntax for writing function expressions."
+  },
+  {
+    "question": "What does 'async' do?",
+    "options": [
+      {"text": "Defines asynchronous function", "isCorrect": true},
+      {"text": "Defines synchronous function", "isCorrect": false},
+      {"text": "Calls asynchronous function", "isCorrect": false},
+      {"text": "Clears async timeout", "isCorrect": false}
+    ],
+    "explanation": "Defines an asynchronous function, which returns an AsyncFunction object."
+  },
+  {
+    "question": "What does 'await' do?",
+    "options": [
+      {"text": "Waits for Promise to resolve", "isCorrect": true},
+      {"text": "Waits for timeout to complete", "isCorrect": false},
+      {"text": "Stops async function", "isCorrect": false},
+      {"text": "Returns value immediately", "isCorrect": false}
+    ],
+    "explanation": "Pauses async function execution until a Promise is settled (resolved or rejected)."
+  },
+  {
+    "question": "What does 'Promise' represent?",
+    "options": [
+      {"text": "Asynchronous operation", "isCorrect": true},
+      {"text": "Synchronous operation", "isCorrect": false},
+      {"text": "Callback function", "isCorrect": false},
+      {"text": "Event handler", "isCorrect": false}
+    ],
+    "explanation": "Represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
+  },
+  {
+    "question": "What does 'fetch' do?",
+    "options": [
+      {"text": "Fetches resources asynchronously", "isCorrect": true},
+      {"text": "Fetches resources synchronously", "isCorrect": false},
+      {"text": "Fetches local files", "isCorrect": false},
+      {"text": "Fetches JSON data", "isCorrect": false}
+    ],
+    "explanation": "Allows fetching resources asynchronously across the network."
+  },
+  {
+    "question": "What does 'addEventListener()' do?",
+    "options": [
+      {"text": "Attaches event handler to element", "isCorrect": true},
+      {"text": "Removes event handler from element", "isCorrect": false},
+      {"text": "Executes event immediately", "isCorrect": false},
+      {"text": "Registers event globally", "isCorrect": false}
+    ],
+    "explanation": "Registers an event handler on a specified element."
   }
 ]
