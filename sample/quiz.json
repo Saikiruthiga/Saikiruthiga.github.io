@@ -41,19 +41,19 @@
   },{
     "question": "What will this log? console.log([] + []);",
     "options": [
-      { "text": "''", "isCorrect": true },
       { "text": "'[]'", "isCorrect": false },
       { "text": "'undefined'", "isCorrect": false },
-      { "text": "'null'", "isCorrect": false }
+      { "text": "'null'", "isCorrect": false },
+      { "text": "''", "isCorrect": true }
     ],
     "explanation": "Adding two empty arrays results in an empty string due to type coercion."
   },
   {
     "question": "What does 'bind()' do?",
     "options": [
-      { "text": "Sets 'this' context", "isCorrect": true },
       { "text": "Calls a function", "isCorrect": false },
       { "text": "Returns a new array", "isCorrect": false },
+      { "text": "Sets 'this' context", "isCorrect": true },
       { "text": "None of the above", "isCorrect": false }
     ],
     "explanation": "The bind() method creates a new function that, when called, has its 'this' keyword set to the provided value."
@@ -71,9 +71,9 @@
   {
     "question": "What is a Promise?",
     "options": [
-      { "text": "Represents future value", "isCorrect": true },
       { "text": "Blocks execution", "isCorrect": false },
       { "text": "Immediately executed", "isCorrect": false },
+      { "text": "Represents future value", "isCorrect": true },
       { "text": "None of the above", "isCorrect": false }
     ],
     "explanation": "A Promise represents a value that may be available now, or in the future, or never."
@@ -90,8 +90,8 @@
   },{
     "question": "What is 'use strict'?",
     "options": [
-      {"text":"Enforces strict mode","isCorrect": true},
       {"text":"Disables strict mode","isCorrect": false },
+      {"text":"Enforces strict mode","isCorrect": true},
       {"text":"Adds use of semicolons","isCorrect": false },
       {"text":"Changes variable scope","isCorrect": false }
     ],
@@ -101,10 +101,10 @@
   {
     "question": "What does isNaN() do?",
     "options": [
-      {"text": "Checks for NaN","isCorrect": true},
       {"text":"Checks for null","isCorrect": false },
       {"text":"Checks for undefined","isCorrect": false },
-      {"text":"Checks for infinity","isCorrect": false }
+      {"text":"Checks for infinity","isCorrect": false },
+      {"text": "Checks for NaN","isCorrect": true}
     ],
    
     "explanation": "It returns true if the value is NaN."
@@ -130,9 +130,9 @@
   {
     "question": "What is a closure?",
     "options": [
-      {"text": "Function with scope", "isCorrect": true},
       {"text": "Object method", "isCorrect": false},
       {"text": "Loop", "isCorrect": false},
+      {"text": "Function with scope", "isCorrect": true},
       {"text": "Class", "isCorrect": false}
     ],
     "explanation": "A function with access to its scope."
@@ -159,18 +159,18 @@
   {
     "question": "What does 'push' do?",
     "options": [
-      {"text": "Adds element to end", "isCorrect": true},
       {"text": "Removes element from end", "isCorrect": false},
       {"text": "Adds element to start", "isCorrect": false},
-      {"text": "Removes element from start", "isCorrect": false}
+      {"text": "Removes element from start", "isCorrect": false},
+      {"text": "Adds element to end", "isCorrect": true}
     ],
     "explanation": "Adds element to end."
   },{
     "question": "What does 'pop' do?",
     "options": [
-      {"text": "Removes element from end", "isCorrect": true},
       {"text": "Adds element to end", "isCorrect": false},
       {"text": "Removes element from start", "isCorrect": false},
+      {"text": "Removes element from end", "isCorrect": true},
       {"text": "Adds element to start", "isCorrect": false}
     ],
     "explanation": "Removes element from end."
@@ -178,8 +178,8 @@
   {
     "question": "What is 'const' used for?",
     "options": [
-      {"text": "Declare constant", "isCorrect": true},
       {"text": "Declare variable", "isCorrect": false},
+      {"text": "Declare constant", "isCorrect": true},
       {"text": "Declare function", "isCorrect": false},
       {"text": "Declare class", "isCorrect": false}
     ],
@@ -198,9 +198,9 @@
   {
     "question": "What does 'slice' do?",
     "options": [
-      {"text": "Extracts array part", "isCorrect": true},
       {"text": "Modifies array", "isCorrect": false},
       {"text": "Removes array part", "isCorrect": false},
+      {"text": "Extracts array part", "isCorrect": true},
       {"text": "Adds to array", "isCorrect": false}
     ],
     "explanation": "Extracts part of array."
@@ -208,8 +208,8 @@
   {
     "question": "What does 'filter' do?",
     "options": [
-      {"text": "Creates new array", "isCorrect": true},
       {"text": "Sorts array", "isCorrect": false},
+      {"text": "Creates new array", "isCorrect": true},
       {"text": "Reverses array", "isCorrect": false},
       {"text": "Concats arrays", "isCorrect": false}
     ],
@@ -218,9 +218,9 @@
   {
     "question": "What is 'this'?",
     "options": [
-      {"text": "Current context", "isCorrect": true},
       {"text": "Global object", "isCorrect": false},
       {"text": "New object", "isCorrect": false},
+      {"text": "Current context", "isCorrect": true},
       {"text": "Undefined", "isCorrect": false}
     ],
     "explanation": "Refers to current context."
@@ -228,10 +228,10 @@
   {
     "question": "What does 'map' do?",
     "options": [
-      {"text": "Creates new array", "isCorrect": true},
       {"text": "Filters array", "isCorrect": false},
       {"text": "Sorts array", "isCorrect": false},
-      {"text": "Reverses array", "isCorrect": false}
+      {"text": "Reverses array", "isCorrect": false},
+      {"text": "Creates new array", "isCorrect": true}
     ],
     "explanation": "Creates new array."
   },{
@@ -257,8 +257,8 @@
   {
     "question": "What does 'find' do?",
     "options": [
-      {"text": "Returns first matching element", "isCorrect": true},
       {"text": "Filters array", "isCorrect": false},
+      {"text": "Returns first matching element", "isCorrect": true},
       {"text": "Sorts array", "isCorrect": false},
       {"text": "Maps array", "isCorrect": false}
     ],
@@ -267,9 +267,9 @@
   {
     "question": "What does 'some' do?",
     "options": [
-      {"text": "Checks if any element passes test", "isCorrect": true},
       {"text": "Filters array", "isCorrect": false},
       {"text": "Sorts array", "isCorrect": false},
+      {"text": "Checks if any element passes test", "isCorrect": true},
       {"text": "Maps array", "isCorrect": false}
     ],
     "explanation": "Checks if any element in the array passes the test."
@@ -277,10 +277,10 @@
   {
     "question": "What does 'every' do?",
     "options": [
-      {"text": "Checks if all elements pass test", "isCorrect": true},
       {"text": "Filters array", "isCorrect": false},
       {"text": "Sorts array", "isCorrect": false},
-      {"text": "Maps array", "isCorrect": false}
+      {"text": "Maps array", "isCorrect": false},
+      {"text": "Checks if all elements pass test", "isCorrect": true}
     ],
     "explanation": "Checks if all elements in the array pass the test."
   },
@@ -307,9 +307,9 @@
   {
     "question": "What does 'Object.entries()' do?",
     "options": [
-      {"text": "Returns array of key-value pairs", "isCorrect": true},
       {"text": "Returns array of object keys", "isCorrect": false},
       {"text": "Returns array of object values", "isCorrect": false},
+      {"text": "Returns array of key-value pairs", "isCorrect": true},
       {"text": "Returns object length", "isCorrect": false}
     ],
     "explanation": "Returns an array of a given object's own enumerable property [key, value] pairs."
@@ -317,9 +317,9 @@
   {
     "question": "What does 'parseInt()' do?",
     "options": [
-      {"text": "Parses string to integer", "isCorrect": true},
       {"text": "Parses integer to string", "isCorrect": false},
       {"text": "Converts number to string", "isCorrect": false},
+      {"text": "Parses string to integer", "isCorrect": true},
       {"text": "Converts string to number", "isCorrect": false}
     ],
     "explanation": "Parses a string and returns an integer."
@@ -347,9 +347,9 @@
   {
     "question": "What does 'setInterval()' do?",
     "options": [
-      {"text": "Repeats function at intervals", "isCorrect": true},
       {"text": "Executes function immediately", "isCorrect": false},
       {"text": "Clears interval", "isCorrect": false},
+      {"text": "Repeats function at intervals", "isCorrect": true},
       {"text": "Sets timeout to execute function", "isCorrect": false}
     ],
     "explanation": "Repeats a function or specified piece of code at specified intervals."
@@ -387,10 +387,10 @@
   {
     "question": "What does 'Promise' represent?",
     "options": [
-      {"text": "Asynchronous operation", "isCorrect": true},
       {"text": "Synchronous operation", "isCorrect": false},
       {"text": "Callback function", "isCorrect": false},
       {"text": "Event handler", "isCorrect": false}
+      {"text": "Asynchronous operation", "isCorrect": true}
     ],
     "explanation": "Represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
   },
@@ -407,9 +407,9 @@
   {
     "question": "What does 'addEventListener()' do?",
     "options": [
-      {"text": "Attaches event handler to element", "isCorrect": true},
       {"text": "Removes event handler from element", "isCorrect": false},
       {"text": "Executes event immediately", "isCorrect": false},
+      {"text": "Attaches event handler to element", "isCorrect": true},
       {"text": "Registers event globally", "isCorrect": false}
     ],
     "explanation": "Registers an event handler on a specified element."
