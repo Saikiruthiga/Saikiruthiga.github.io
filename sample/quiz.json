@@ -389,7 +389,7 @@
     "options": [
       {"text": "Synchronous operation", "isCorrect": false},
       {"text": "Callback function", "isCorrect": false},
-      {"text": "Event handler", "isCorrect": false}
+      {"text": "Event handler", "isCorrect": false},
       {"text": "Asynchronous operation", "isCorrect": true}
     ],
     "explanation": "Represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
